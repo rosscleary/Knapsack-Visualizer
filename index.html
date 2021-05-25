@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="styles.css">
+
+<html>
+    <body>
+        <h1> Knapsack Algorithm Visualizer </h1>
+
+        <form class="addItemForm" id="addItemForm">
+            <input type="text" name="itemType" placeholder="Type">
+            <input type="text" name="itemName" placeholder="Name">
+            <input type="number" name="itemPrice" placeholder="Price">
+            <input type="number" name="itemValue" placeholder="Value">
+            <br>
+            <button class="add">Add</button>
+        </form>
+
+        <table class="itemsTable" id="itemsTable" border="1"> </table>
+
+        <form class="addBudgetForm" id="addBudgetForm">
+            <input type="text" name="budget" placeholder="Budget">
+            <button class="runAlgorithm"> Run Algorithm </button>
+        </form>
+
+        <table class="dpTable" id="dpTable" border="1"> </table>
+    </body>
+</html>
+
+<script src="app.js"></script>
