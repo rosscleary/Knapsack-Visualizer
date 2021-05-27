@@ -65,6 +65,7 @@ document.querySelector('#addItemForm').addEventListener('submit', function(e) {
         itemValue: value
     });
 
+    document.getElementById("addItemForm").reset();
     renderTable();
 });
 
