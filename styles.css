@@ -10,30 +10,31 @@ h1 {
 
 .addItemForm {
     background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     color: white;
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     width: 40%;
-    position: relative;
-    left: 500px;
 }
 
 .addBudgetForm {
     background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: none;
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     width: 30%;
     position: relative;
     top: 100px;
-    left: 585px;
 }
 
 .add {
@@ -56,14 +57,16 @@ input {
     width: 90%;
     border: 10px solid black;
     position: relative;
-    left: 50px;
     top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dpTable {
     width: 90%;
     border: 10px solid black;
     position: relative;
-    left: 50px;
     top: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
