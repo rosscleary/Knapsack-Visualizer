@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(56, 152, 230);
+    background-color: white;
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
 }
 
 .addItemForm {
-    background-color: #34a359;
+    background-color: white;
     border: none;
     color: white;
     padding: 5px 5px;
@@ -18,26 +18,30 @@ h1 {
     display: inline-block;
     font-size: 16px;
     width: 40%;
+    position: relative;
+    left: 500px;
 }
 
 .addBudgetForm {
-    background-color: #34a359;
+    background-color: white;
     border: none;
-    color: white;
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     width: 30%;
+    position: relative;
+    top: 100px;
+    left: 585px;
 }
 
 .add {
-    background-color: #34a359;
+    background-color: #1390d8;
 }
 
 .runAlgorithm {
-    background-color: #34a359;
+    background-color: #1390d8;
 }
 
 input {
@@ -45,19 +49,21 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-block-color: black;
 }
 
 .itemsTable {
-    width: 50%;
-    border: 10px solid purple;
+    width: 90%;
+    border: 10px solid black;
     position: relative;
-    bottom: 250px;
-    left: 750px;
+    left: 50px;
+    top: 50px;
 }
 
 .dpTable {
-    width: 50%;
-    border: 10px solid purple;
+    width: 90%;
+    border: 10px solid black;
     position: relative;
-    top: 10px;
+    left: 50px;
+    top: 150px;
 }
